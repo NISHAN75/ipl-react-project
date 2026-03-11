@@ -1,0 +1,202 @@
+[
+  {
+    "player-image": "https://images.unsplash.com/photo-1546519638-68e109498ffc",
+    "player-name": "Virat Kohli",
+    "player-country": "India",
+    "playing-role": "Batter",
+    "rating": 9.8,
+    "batting-style": "Right-hand Bat",
+    "bowling-style": "Right-arm medium",
+    "price": "₹21 crore"
+  },
+  {
+    "player-image": "https://images.unsplash.com/photo-1593341646782-e0b495cff86d",
+    "player-name": "Rohit Sharma",
+    "player-country": "India",
+    "playing-role": "Batter",
+    "rating": 9.5,
+    "batting-style": "Right-hand Bat",
+    "bowling-style": "Right-arm off break",
+    "price": "₹16 crore"
+  },
+  {
+    "player-image": "https://images.unsplash.com/photo-1608245449230-4ac19066d2d0",
+    "player-name": "MS Dhoni",
+    "player-country": "India",
+    "playing-role": "Wicketkeeper Batter",
+    "rating": 9.4,
+    "batting-style": "Right-hand Bat",
+    "bowling-style": "None",
+    "price": "₹12 crore"
+  },
+  {
+    "player-image": "https://images.unsplash.com/photo-1521412644187-c49fa049e84d",
+    "player-name": "Hardik Pandya",
+    "player-country": "India",
+    "playing-role": "All-rounder",
+    "rating": 9.2,
+    "batting-style": "Right-hand Bat",
+    "bowling-style": "Right-arm fast-medium",
+    "price": "₹15 crore"
+  },
+  {
+    "player-image": "https://images.unsplash.com/photo-1517649763962-0c623066013b",
+    "player-name": "Jasprit Bumrah",
+    "player-country": "India",
+    "playing-role": "Bowler",
+    "rating": 9.3,
+    "batting-style": "Right-hand Bat",
+    "bowling-style": "Right-arm fast",
+    "price": "₹12 crore"
+  },
+  {
+    "player-image": "https://images.unsplash.com/photo-1508098682722-e99c643e7f0b",
+    "player-name": "Ben Stokes",
+    "player-country": "England",
+    "playing-role": "All-rounder",
+    "rating": 9.0,
+    "batting-style": "Left-hand Bat",
+    "bowling-style": "Right-arm fast-medium",
+    "price": "₹16.25 crore"
+  },
+  {
+    "player-image": "https://images.unsplash.com/photo-1551958219-acbc608c6377",
+    "player-name": "David Warner",
+    "player-country": "Australia",
+    "playing-role": "Batter",
+    "rating": 8.9,
+    "batting-style": "Left-hand Bat",
+    "bowling-style": "Right-arm leg break",
+    "price": "₹6.25 crore"
+  },
+  {
+    "player-image": "https://images.unsplash.com/photo-1599058917765-a780eda07a3e",
+    "player-name": "Kane Williamson",
+    "player-country": "New Zealand",
+    "playing-role": "Batter",
+    "rating": 8.8,
+    "batting-style": "Right-hand Bat",
+    "bowling-style": "Right-arm off break",
+    "price": "₹14 crore"
+  },
+  {
+    "player-image": "https://images.unsplash.com/photo-1543357480-c60d40007a3f",
+    "player-name": "Jos Buttler",
+    "player-country": "England",
+    "playing-role": "Wicketkeeper Batter",
+    "rating": 9.1,
+    "batting-style": "Right-hand Bat",
+    "bowling-style": "None",
+    "price": "₹10 crore"
+  },
+  {
+    "player-image": "https://images.unsplash.com/photo-1517649763962-0c623066013b",
+    "player-name": "KL Rahul",
+    "player-country": "India",
+    "playing-role": "Wicketkeeper Batter",
+    "rating": 8.7,
+    "batting-style": "Right-hand Bat",
+    "bowling-style": "None",
+    "price": "₹17 crore"
+  },
+  {
+    "player-image": "https://images.unsplash.com/photo-1595433707802-0c6f1c90a1d4",
+    "player-name": "Andre Russell",
+    "player-country": "West Indies",
+    "playing-role": "All-rounder",
+    "rating": 9.0,
+    "batting-style": "Right-hand Bat",
+    "bowling-style": "Right-arm fast",
+    "price": "₹12 crore"
+  },
+  {
+    "player-image": "https://images.unsplash.com/photo-1517649763962-0c623066013b",
+    "player-name": "Rashid Khan",
+    "player-country": "Afghanistan",
+    "playing-role": "Bowler",
+    "rating": 9.3,
+    "batting-style": "Right-hand Bat",
+    "bowling-style": "Right-arm leg break",
+    "price": "₹15 crore"
+  },
+  {
+    "player-image": "https://images.unsplash.com/photo-1521412644187-c49fa049e84d",
+    "player-name": "Glenn Maxwell",
+    "player-country": "Australia",
+    "playing-role": "All-rounder",
+    "rating": 8.8,
+    "batting-style": "Right-hand Bat",
+    "bowling-style": "Right-arm off break",
+    "price": "₹11 crore"
+  },
+  {
+    "player-image": "https://images.unsplash.com/photo-1508098682722-e99c643e7f0b",
+    "player-name": "Shubman Gill",
+    "player-country": "India",
+    "playing-role": "Batter",
+    "rating": 8.9,
+    "batting-style": "Right-hand Bat",
+    "bowling-style": "None",
+    "price": "₹8 crore"
+  },
+  {
+    "player-image": "https://images.unsplash.com/photo-1543357480-c60d40007a3f",
+    "player-name": "Faf du Plessis",
+    "player-country": "South Africa",
+    "playing-role": "Batter",
+    "rating": 8.7,
+    "batting-style": "Right-hand Bat",
+    "bowling-style": "Right-arm medium",
+    "price": "₹7 crore"
+  },
+  {
+    "player-image": "https://images.unsplash.com/photo-1593341646782-e0b495cff86d",
+    "player-name": "Quinton de Kock",
+    "player-country": "South Africa",
+    "playing-role": "Wicketkeeper Batter",
+    "rating": 8.8,
+    "batting-style": "Left-hand Bat",
+    "bowling-style": "None",
+    "price": "₹6.75 crore"
+  },
+  {
+    "player-image": "https://images.unsplash.com/photo-1599058917765-a780eda07a3e",
+    "player-name": "Pat Cummins",
+    "player-country": "Australia",
+    "playing-role": "Bowler",
+    "rating": 9.0,
+    "batting-style": "Right-hand Bat",
+    "bowling-style": "Right-arm fast",
+    "price": "₹20.5 crore"
+  },
+  {
+    "player-image": "https://images.unsplash.com/photo-1517649763962-0c623066013b",
+    "player-name": "Trent Boult",
+    "player-country": "New Zealand",
+    "playing-role": "Bowler",
+    "rating": 8.9,
+    "batting-style": "Right-hand Bat",
+    "bowling-style": "Left-arm fast",
+    "price": "₹8 crore"
+  },
+  {
+    "player-image": "https://images.unsplash.com/photo-1551958219-acbc608c6377",
+    "player-name": "Yuzvendra Chahal",
+    "player-country": "India",
+    "playing-role": "Bowler",
+    "rating": 8.6,
+    "batting-style": "Right-hand Bat",
+    "bowling-style": "Right-arm leg break",
+    "price": "₹6.5 crore"
+  },
+  {
+    "player-image": "https://images.unsplash.com/photo-1608245449230-4ac19066d2d0",
+    "player-name": "Ravindra Jadeja",
+    "player-country": "India",
+    "playing-role": "All-rounder",
+    "rating": 9.2,
+    "batting-style": "Left-hand Bat",
+    "bowling-style": "Left-arm orthodox",
+    "price": "₹16 crore"
+  }
+]

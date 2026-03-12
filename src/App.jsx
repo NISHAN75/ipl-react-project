@@ -14,6 +14,7 @@ const playersPromise = fetchPlayers()
   return ( 
     <>
     <Navbar></Navbar>
+    
     <Suspense fallback={<span className="loading loading-ring loading-xl"></span>}>
       <AvailablePlayers playersPromise={playersPromise}></AvailablePlayers>
     </Suspense>

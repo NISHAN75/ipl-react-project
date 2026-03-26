@@ -1,6 +1,32 @@
+import { useState } from 'react';
+const PlayerCard = ({player ,availableBalance, setAvailableBalance ,handleSelectedPlayer}) => {
 
-const PlayerCard = ({player}) => {
-    console.log(player);
+
+  const [isSelected,setIsSelected] = useState(false);
+  function convertToNumber(price) {
+  if (!price) return 0;
+
+  const value = parseFloat(price.replace(/[^\d.]/g, "")); // 8
+  if (price.toLowerCase().includes("crore")) {
+    return value * 10000000;
+  }
+  if (price.toLowerCase().includes("lakh")) {
+    return value * 100000;
+  }
+  return value;
+}
+function currentBlanceCheck(playerPrice, availableBalance, setAvailableBalance) {
+  const priceNumber = convertToNumber(playerPrice);
+
+  const currentBalance = availableBalance - priceNumber;
+
+  if (currentBalance < 0) {
+    alert("Not enough balance!");
+    return;
+  }
+
+  setAvailableBalance(currentBalance);
+}
 
     
   return (
@@ -60,8 +86,15 @@ const PlayerCard = ({player}) => {
             {/* Price and Action Button */}
             <div className="flex justify-between items-center pt-2">
               <span className="font-bold text-lg text-gray-900">Price: {player.price}</span>
-              <button className="btn btn-outline border-gray-300 hover:bg-gray-100 hover:text-black normal-case rounded-xl px-6">
-                Choose Player
+              <button
+                disabled={isSelected}
+                onClick={() => {
+                  setIsSelected(true);
+                  currentBlanceCheck(player.price, availableBalance, setAvailableBalance);
+                  handleSelectedPlayer={handleSelectedPlayer}
+                }} className="btn btn-outline border-gray-300 hover:bg-gray-100 hover:text-black normal-case rounded-xl px-6"
+              >
+                {isSelected ? "Selected" : "Choose Player"} 
               </button>
             </div>
           </div>

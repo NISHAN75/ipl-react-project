@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "player-image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDN_x3qsMAqlbRhBpGwv44hqQphdGCvCQkGD4hTuAww4EhMOVJyT2l55-hj2WMNBfit5ExLhwCdozA9eD-Ae2yCsqtFAoTvzu23yt80uCWrQ&s=10",
+    "player-image": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_320/lsci/db/PICTURES/CMS/316600/316605.png",
     "player-name": "Virat Kohli",
     "player-country": "India",
     "playing-role": "Batter",
@@ -12,7 +12,7 @@
   },
   {
     "id": 2,
-    "player-image": "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcTyZ_1c8cpO__cCvSa4onogWni2WLZ0vqw7sgMvXKCa6gygDOgWdGrmTH2kuEpCSG3Mwg27W7Db7XbiZmw",
+    "player-image": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_320/lsci/db/PICTURES/CMS/316500/316584.png",
     "player-name": "Rohit Sharma",
     "player-country": "India",
     "playing-role": "Batter",
@@ -23,7 +23,7 @@
   },
   {
     "id": 3,
-    "player-image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/MS_Dhoni_%28Prabhav_%2723_-_RiGI_2023%29.jpg/250px-MS_Dhoni_%28Prabhav_%2723_-_RiGI_2023%29.jpg",
+    "player-image": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_320/lsci/db/PICTURES/CMS/316500/316514.png",
     "player-name": "MS Dhoni",
     "player-country": "India",
     "playing-role": "Wicketkeeper Batter",
@@ -34,7 +34,7 @@
   },
   {
     "id": 4,
-    "player-image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYmGBJT09pP6aMbBX2p0WsfgAqycdB9qmHrf8Hg8cuIW-lpk16vdpjYRhJMR0T2HCLA4XWPjgQuhN2e1Zk_jqyMGIP1x4Lk3AgBrG5jg&s=10",
+    "player-image": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_320/lsci/db/PICTURES/CMS/316400/316488.png",
     "player-name": "Hardik Pandya",
     "player-country": "India",
     "playing-role": "All-rounder",
@@ -45,7 +45,7 @@
   },
   {
     "id": 5,
-    "player-image": "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcTDkQgqlTKvckfqa2aexsQ0mCsKzUb5_a8KX_knKiEIpGs1hC-F1142LX3cOhc8qusScC4gSOg0Jq2GO4GaZZ9Kj0_hgH_ULP6tm5td1lQZcT9HVKkVipuHB7_6-TQaJGA1V1ChPk9Drti4&s=19",
+    "player-image": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_320/lsci/db/PICTURES/CMS/316400/316486.png",
     "player-name": "Jasprit Bumrah",
     "player-country": "India",
     "playing-role": "Bowler",
@@ -56,7 +56,7 @@
   },
   {
     "id": 6,
-    "player-image": "https://upload.wikimedia.org/wikipedia/commons/1/19/Ben_Stokes_2019.jpg",
+    "player-image": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_320/lsci/db/PICTURES/CMS/316500/316578.png",
     "player-name": "Ben Stokes",
     "player-country": "England",
     "playing-role": "All-rounder",
@@ -67,7 +67,7 @@
   },
   {
     "id": 7,
-    "player-image": "https://upload.wikimedia.org/wikipedia/commons/6/6b/David_Warner_2019.jpg",
+    "player-image": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_320/lsci/db/PICTURES/CMS/316600/316624.png",
     "player-name": "David Warner",
     "player-country": "Australia",
     "playing-role": "Batter",
@@ -78,7 +78,7 @@
   },
   {
     "id": 8,
-    "player-image": "https://upload.wikimedia.org/wikipedia/commons/6/60/Kane_Williamson.jpg",
+    "player-image": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_320/lsci/db/PICTURES/CMS/316600/316627.png",
     "player-name": "Kane Williamson",
     "player-country": "New Zealand",
     "playing-role": "Batter",
@@ -89,7 +89,7 @@
   },
   {
     "id": 9,
-    "player-image": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Jos_Buttler.jpg",
+    "player-image": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_320/lsci/db/PICTURES/CMS/316400/316491.png",
     "player-name": "Jos Buttler",
     "player-country": "England",
     "playing-role": "Wicketkeeper Batter",
@@ -100,7 +100,7 @@
   },
   {
     "id": 10,
-    "player-image": "https://upload.wikimedia.org/wikipedia/commons/7/7c/KL_Rahul.jpg",
+    "player-image": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_320/lsci/db/PICTURES/CMS/316500/316543.png",
     "player-name": "KL Rahul",
     "player-country": "India",
     "playing-role": "Wicketkeeper Batter",
@@ -111,7 +111,7 @@
   },
   {
     "id": 11,
-    "player-image": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Andre_Russell.jpg",
+    "player-image": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_320/lsci/db/PICTURES/CMS/316500/316588.png",
     "player-name": "Andre Russell",
     "player-country": "West Indies",
     "playing-role": "All-rounder",
@@ -122,7 +122,7 @@
   },
   {
     "id": 12,
-    "player-image": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Rashid_Khan.jpg",
+    "player-image": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_320/lsci/db/PICTURES/CMS/316500/316582.png",
     "player-name": "Rashid Khan",
     "player-country": "Afghanistan",
     "playing-role": "Bowler",
@@ -133,7 +133,7 @@
   },
   {
     "id": 13,
-    "player-image": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Glenn_Maxwell.jpg",
+    "player-image": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_320/lsci/db/PICTURES/CMS/316500/316527.png",
     "player-name": "Glenn Maxwell",
     "player-country": "Australia",
     "playing-role": "All-rounder",
@@ -144,7 +144,7 @@
   },
   {
     "id": 14,
-    "player-image": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Shubman_Gill.jpg",
+    "player-image": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_320/lsci/db/PICTURES/CMS/316500/316597.png",
     "player-name": "Shubman Gill",
     "player-country": "India",
     "playing-role": "Batter",
@@ -155,7 +155,7 @@
   },
   {
     "id": 15,
-    "player-image": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Faf_du_Plessis.jpg",
+    "player-image": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_320/lsci/db/PICTURES/CMS/316500/316518.png",
     "player-name": "Faf du Plessis",
     "player-country": "South Africa",
     "playing-role": "Batter",
@@ -166,7 +166,7 @@
   },
   {
     "id": 16,
-    "player-image": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Quinton_de_Kock.jpg",
+    "player-image": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_320/lsci/db/PICTURES/CMS/316500/316580.png",
     "player-name": "Quinton de Kock",
     "player-country": "South Africa",
     "playing-role": "Wicketkeeper Batter",
@@ -177,7 +177,7 @@
   },
   {
     "id": 17,
-    "player-image": "https://upload.wikimedia.org/wikipedia/commons/1/10/Pat_Cummins.jpg",
+    "player-image": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_320/lsci/db/PICTURES/CMS/316500/316573.png",
     "player-name": "Pat Cummins",
     "player-country": "Australia",
     "playing-role": "Bowler",
@@ -188,7 +188,7 @@
   },
   {
     "id": 18,
-    "player-image": "https://upload.wikimedia.org/wikipedia/commons/7/72/Trent_Boult.jpg",
+    "player-image": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_320/lsci/db/PICTURES/CMS/316400/316484.png",
     "player-name": "Trent Boult",
     "player-country": "New Zealand",
     "playing-role": "Bowler",
@@ -199,7 +199,7 @@
   },
   {
     "id": 19,
-    "player-image": "https://upload.wikimedia.org/wikipedia/commons/9/91/Yuzvendra_Chahal.jpg",
+    "player-image": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_320/lsci/db/PICTURES/CMS/316600/316630.png",
     "player-name": "Yuzvendra Chahal",
     "player-country": "India",
     "playing-role": "Bowler",
@@ -210,7 +210,7 @@
   },
   {
     "id": 20,
-    "player-image": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Ravindra_Jadeja.jpg",
+    "player-image": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_320/lsci/db/PICTURES/CMS/316500/316537.png",
     "player-name": "Ravindra Jadeja",
     "player-country": "India",
     "playing-role": "All-rounder",

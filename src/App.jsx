@@ -1,4 +1,5 @@
 import { Suspense, useEffect, useState } from 'react';
+import { ToastContainer, toast } from 'react-toastify';
 import './App.css';
 import AvailablePlayers from './components/AvailablePlayers/AvailablePlayers';
 import Navbar from './components/Navbar/Navbar';
@@ -18,29 +19,30 @@ function App() {
   const [selectedPlayers, setSelectedPlayers] = useState([]);
   const [isScrolled, setIsScrolled] = useState(false);
 
-  // ✅ select player
-  const handleSelectedPlayer = (player) => {
+  // select player
+  const handleSelectedPlayer = (player,setIsSelected) => {
     const isExist = selectedPlayers.find((p) => p.id === player.id);
 
     if (isExist) {
-      alert("এই প্লেয়ারটি অলরেডি সিলেক্ট করা আছে!");
+      toast("This player is already selected!");
     } else if (selectedPlayers.length >= 6) {
-      alert("আপনি সর্বোচ্চ ৬ জন প্লেয়ার নিতে পারবেন!");
+      toast("You can take up to 6 players!");
+      setIsSelected(false);
     } else {
       setSelectedPlayers([...selectedPlayers, player]);
-      setView("selected"); // ✅ auto switch tab
-      alert(`${player["player-name"]} কে অ্যাড করা হয়েছে!`);
+      // setView("selected");
+      toast(`${player["player-name"]} has been added!`);
     }
   };
 
-  // ✅ remove player
+  //remove player
   const handleRemovePlayer = (id) => {
     const remainingPlayers = selectedPlayers.filter((player) => player.id !== id);
     setSelectedPlayers(remainingPlayers);
-    alert("Player removed successfully!");
+    toast("Player removed successfully!");
   };
 
-  // ✅ scroll shadow
+  // scroll shadow
   useEffect(() => {
     const handleScroll = () => {
       setIsScrolled(window.scrollY > 50);
@@ -75,7 +77,7 @@ function App() {
               playersPromise={playersPromise}
               availableBalance={availableBalance}
               setAvailableBalance={setAvailableBalance}
-              handleSelectedPlayer={handleSelectedPlayer} // ✅ pass
+              handleSelectedPlayer={handleSelectedPlayer} 
             />
           </Suspense>
         ) : (
@@ -88,6 +90,7 @@ function App() {
           </Suspense>
         )
       }
+      <ToastContainer></ToastContainer>
     </>
   );
 }

@@ -22,7 +22,7 @@ const AvailablePlayers = ({
               player={player}
               availableBalance={availableBalance}
               setAvailableBalance={setAvailableBalance}
-              handleSelectedPlayer={handleSelectedPlayer} // ✅ pass
+              handleSelectedPlayer={handleSelectedPlayer}
             />
           ))
         }

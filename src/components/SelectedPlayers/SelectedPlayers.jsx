@@ -34,9 +34,9 @@ const SelectedPlayers = ({ selectedPlayers, handleRemovePlayer, setView }) => {
               </div>
 
               {/* Delete */}
-              <button
+              <button 
                 onClick={() => handleRemovePlayer(player.id)}
-                className="text-red-500 hover:text-red-700"
+                className="text-red-500 hover:text-red-700 cursor-pointer"
               >
                 <MdDeleteForever size={32} />
               </button>

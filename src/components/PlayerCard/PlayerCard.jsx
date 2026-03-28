@@ -91,10 +91,13 @@ function currentBlanceCheck(playerPrice, availableBalance, setAvailableBalance) 
                 onClick={() => {
                   setIsSelected(true);
                   currentBlanceCheck(player.price, availableBalance, setAvailableBalance);
-                  handleSelectedPlayer={handleSelectedPlayer}
-                }} className="btn btn-outline border-gray-300 hover:bg-gray-100 hover:text-black normal-case rounded-xl px-6"
+                  handleSelectedPlayer(player, setIsSelected);
+                }}
+                className={`btn btn-outline border-gray-300 hover:bg-gray-100 hover:text-black normal-case rounded-xl px-6 ${
+                  isSelected ? "cursor-none" : "cursor-pointer"
+                }`}
               >
-                {isSelected ? "Selected" : "Choose Player"} 
+                {isSelected ? "Selected" : "Choose Player"}
               </button>
             </div>
           </div>

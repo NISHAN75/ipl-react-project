@@ -1,2 +1,53 @@
 @import "tailwindcss";
 @plugin "daisyui";
+
+/* Google Fonts Import */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+@theme {
+  --color-primary: #D32F2F;
+  --color-primary-content: #ffffff;
+  --color-secondary: #FF9800;
+  --color-accent: #C5A059;
+  --color-neutral: #1A1A1A;
+  --color-base-100: #FFFFFF;
+  --font-roboto: "Roboto", sans-serif;
+  --font-montserrat: "Montserrat", sans-serif;
+}
+
+
+@layer base {
+  :root {
+    /* Font Sizes */
+    --fs-h1: 56px;
+    --fs-h2: 48px;
+    --fs-h3: 40px;
+    --fs-h4: 32px;
+    --fs-body: 16px;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-roboto);
+    font-weight: 700;
+    color: var(--color-neutral);
+  }
+
+  h1 { font-size: var(--fs-h1); }
+  h2 { font-size: var(--fs-h2); }
+  h3 { font-size: var(--fs-h3); }
+
+  body {
+    font-family: var(--font-montserrat);
+    font-size: var(--fs-body);
+    background-color: var(--color-base-100);
+  }
+}
+
+
+@media (max-width: 768px) {
+  :root {
+    --fs-h1: 40px;
+    --fs-h2: 32px;
+    --fs-h3: 28px;
+  }
+}
